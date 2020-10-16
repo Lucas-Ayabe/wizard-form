@@ -4,7 +4,7 @@ A simple wizard form that have a number step indicator, prev and next controls a
 
 ## Instalation
 
-To install this plugin, download the script.js (you can rename this file) and the wizard-form.css files.
+To install this plugin, download the wizard-form.js and the wizard-form.css files.
 
 Import they in your HTML. Ex:
 
@@ -15,10 +15,13 @@ Import they in your HTML. Ex:
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wizard Form</title>
-        <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="wizard-form.css" />
+        <!-- Your personal styles -->
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
+        <script src="./wizard-form.js"></script>
+        <!-- Your personal scripts -->
         <script src="./script.js"></script>
     </body>
 </html>
